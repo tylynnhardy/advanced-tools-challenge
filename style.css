@@ -5,6 +5,7 @@
 }
 body {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 h1,
@@ -90,4 +91,16 @@ p {
 }
 .app-paragraph {
   background-color: white;
+}
+@media (max-width:576px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    p {
+        text-align: center;
+    }
+
 }
